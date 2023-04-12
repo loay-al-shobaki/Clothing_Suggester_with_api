@@ -119,5 +119,5 @@ class MainActivity : AppCompatActivity() {
         return format.format(date)
     }
 
-    
+
 }
