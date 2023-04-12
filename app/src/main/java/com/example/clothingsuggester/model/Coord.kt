@@ -1,4 +1,4 @@
-package com.example.clothingsuggester.data
+package com.example.clothingsuggester.model
 
 
 data class Coord(

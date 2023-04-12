@@ -16,7 +16,7 @@
 
     <style name="RoundedImageViewStyle">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">16dp</item>
+        <item name="cornerSize">8dp</item>
     </style>
 
 
