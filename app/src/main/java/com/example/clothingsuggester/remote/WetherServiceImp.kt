@@ -58,34 +58,4 @@ class WetherServiceImp() : IWeatherService {
 
 }
 
-
-
-//    client.newCall(rquestWeather()).enqueue(object : Callback {
-//        override fun onFailure(call: Call, e: IOException) {
-//        }
-//
-//        override fun onResponse(call: Call, response: Response) {
-//            response.body?.string().toString().let { jsonString ->
-//                val result = Gson().fromJson(jsonString, WeatherData::class.java)
-//                binding.run {
-//                    runOnUiThread {
-//                        val Temperature = result.main.temp
-//                        textCity.text = result.name
-//                        textDate.text = formatTimestamp(result.dt)
-//                        textTemperature.text = "$Temperature°C"
-//                        imageClothes.setImageResource(getOneClothe(Temperature)[0])
-//                        val imgWeather = result.weather.get(0).icon
-//                        Glide.with(applicationContext)
-//                            .load("https://openweathermap.org/img/w/$imgWeather.png")
-//                            .into(binding.imgWeather)
-//
-//                    }
-//                }
-//
-//            }
-//
-//
-//        }
-//
-//    })
 }
